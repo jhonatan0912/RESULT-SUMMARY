@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary */
+  --Light-red: hsl(0, 100%, 67%);
+  --Orangey-yellow: hsl(39, 100%, 56%);
+  --Green-teal: hsl(166, 100%, 37%);
+  --Cobalt-blue: hsl(234, 85%, 45%);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+* {
+  font-size: 18px;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.first {
+  color: var(--Light-red);
+  background-color: hsla(0, 100%, 67%, .1);
+}
+
+.second {
+  color: var(--Orangey-yellow);
+  background-color: hsla(39, 100%, 56%, .1);
+}
+
+.third {
+  color: var(--Green-teal);
+  background-color: hsla(166, 100%, 37%, .1);
+}
+
+.fourth {
+  color: var(--Cobalt-blue);
+  background-color: hsla(234, 85%, 45%, .1);
+}
+
+.first-gradient {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.second-gradient {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.btn {
+  background-color: var(--Dark-gray-blue);
+  color: white;
+  width: 100%;
+}
