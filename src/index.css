@@ -21,6 +21,10 @@
   font-family: 'Hanken Grotesk', sans-serif;
 }
 
+body {
+  background-color: var(--Pale-blue);
+}
+
 .first {
   color: var(--Light-red);
   background-color: hsla(0, 100%, 67%, .1);
@@ -53,4 +57,8 @@
   background-color: var(--Dark-gray-blue);
   color: white;
   width: 100%;
+}
+
+.btn:active {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
